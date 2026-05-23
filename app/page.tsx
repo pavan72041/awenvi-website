@@ -34,29 +34,40 @@ const galleryItems = [
   {
     title: "Wastewater Treatment",
     src: "/gallery/wastewater.jpg",
+    description:
+      "Advanced wastewater treatment solutions for industries and commercial facilities.",
   },
   {
     title: "Rainwater Harvesting",
     src: "/gallery/rainwater.jpg",
+    description:
+      "Eco-friendly rainwater harvesting systems for sustainable water conservation.",
   },
   {
     title: "Industrial Treatment",
     src: "/gallery/industrial.jpg",
+    description:
+      "Modern industrial effluent treatment plants with advanced purification technologies.",
   },
   {
     title: "Recycling Plant",
     src: "/gallery/recycling.jpg",
+    description:
+      "Smart recycling and waste management systems for cleaner environments.",
   },
   {
     title: "Solar Pumps",
     src: "/gallery/solar.jpg",
+    description:
+      "Energy-efficient solar pumping systems for industrial and agricultural use.",
   },
   {
     title: "Compliance Audit",
     src: "/gallery/audit.jpg",
+    description:
+      "Environmental compliance audits and documentation support services.",
   },
 ];
-
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
